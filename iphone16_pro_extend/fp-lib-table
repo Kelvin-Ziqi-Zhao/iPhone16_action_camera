@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "iphone_connector")(type "KiCad")(uri "${KIPRJMOD}/iphone_connector.pretty")(options "")(descr ""))
+)

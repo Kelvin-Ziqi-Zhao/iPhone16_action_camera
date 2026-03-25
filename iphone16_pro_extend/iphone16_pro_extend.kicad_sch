@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "42fe99c7-182d-4f18-88bd-9b47921653c8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 35.56 106.68)
+		(size 34.29 13.208)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "262bc839-183b-47bc-92e0-25c36980bd19")
+		(property "Sheetname" "20455_tester1"
+			(at 35.56 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "20455_tester.kicad_sch"
+			(at 35.56 120.4726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 33.274)
+		(size 33.528 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6d5df5d2-7541-4967-a257-6c65f5dcb070")
+		(property "Sheetname" "RECEP_to_20455"
+			(at 34.29 32.5624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RECEP_to_20455.kicad_sch"
+			(at 34.29 45.2886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.052 79.502)
+		(size 34.29 13.208)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "809f580a-a74c-452b-83a2-9da9c9592d59")
+		(property "Sheetname" "20455_tester0"
+			(at 35.052 78.7904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "20455_tester.kicad_sch"
+			(at 35.052 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 53.34)
+		(size 34.036 11.176)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b81932c1-e33d-4a1c-b08d-970b8291b161")
+		(property "Sheetname" "PLUG_to_20455"
+			(at 34.29 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PLUG_to_20455.kicad_sch"
+			(at 34.29 65.1006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

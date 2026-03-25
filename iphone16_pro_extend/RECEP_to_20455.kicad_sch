@@ -1,0 +1,3517 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5c874868-47a4-4e80-bf7c-ae5a5f0ed8b9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "iphone_connector:20455-020E-02"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "20455-020E-02"
+				(at 0 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "iphone_connector:CONN-SMD_20P-P0.50_I-PEX_20455-020E-02"
+				(at 0 -36.83 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C7527729"
+				(at 0 -39.37 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "20455-020E-02_0_1"
+				(rectangle
+					(start -2.54 26.67)
+					(end 7.62 -26.67)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 25.4)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 24.13 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 21.59 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 19.05 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 16.51 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 13.97 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 11.43 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 8.89 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 6.35 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -8.89 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -11.43 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -13.97 0)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -16.51 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -19.05 0)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -21.59 0)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -24.13 0)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -29.21 90)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -21.59 180)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 29.21 270)
+					(length 2.54)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 21.59 180)
+					(length 2.54)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "iphone_connector:wide_camera_receptacle_J10500"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 27.432 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "iphone_connector:wide_camera_receptacle_J10500"
+				(at 0 33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "wide_camera_receptacle_J10500_0_1"
+				(rectangle
+					(start -13.97 30.48)
+					(end 15.24 -31.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "wide_camera_receptacle_J10500_1_1"
+				(text "WIDE_RECEP"
+					(at 8.128 -29.718 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 11.43 180)
+					(length 2.54)
+					(name "CLK_24M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 8.89 180)
+					(length 2.54)
+					(name "PMU_SHUTDOWN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 6.35 180)
+					(length 2.54)
+					(name "SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 3.81 180)
+					(length 2.54)
+					(name "STROBE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 1.27 180)
+					(length 2.54)
+					(name "PMU_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -1.27 180)
+					(length 2.54)
+					(name "PMU_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -3.81 180)
+					(length 2.54)
+					(name "POWER_3V25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "POWER_2V75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -8.89 180)
+					(length 2.54)
+					(name "POWER_1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -11.43 180)
+					(length 2.54)
+					(name "POWER_VAR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 8.89 0)
+					(length 2.54)
+					(name "ACI_D0_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 6.35 0)
+					(length 2.54)
+					(name "ACI_D0_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 1.27 0)
+					(length 2.54)
+					(name "ACI_D1_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -1.27 0)
+					(length 2.54)
+					(name "ACI_D1_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -6.35 0)
+					(length 2.54)
+					(name "ACI_D2_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -8.89 0)
+					(length 2.54)
+					(name "ACI_D2_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 26.67 0)
+					(length 2.54)
+					(name "POWER_1V47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 24.13 0)
+					(length 2.54)
+					(name "POWER_1V47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 21.59 0)
+					(length 2.54)
+					(name "POWER_1V47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 19.05 0)
+					(length 2.54)
+					(name "POWER_1V47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -19.05 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -21.59 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -24.13 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -26.67 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 45.72 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30243160-2dbf-467b-a91b-24cfb923ce63")
+	)
+	(junction
+		(at 58.42 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "558d93b0-c6ba-499f-b0a1-a52ae7d928ca")
+	)
+	(junction
+		(at 58.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f3961e8-a814-420c-a458-2636b779dca1")
+	)
+	(junction
+		(at 45.72 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f891e61-2fec-42a0-b71e-3e622962d5df")
+	)
+	(junction
+		(at 153.67 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749f657f-0126-4777-b591-549dd0f28360")
+	)
+	(junction
+		(at 45.72 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "843ba3b4-d1fe-4afc-8840-98cd0d725910")
+	)
+	(junction
+		(at 80.01 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7615bef-fb66-4bd5-9c41-e72f1d9afe3c")
+	)
+	(junction
+		(at 58.42 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9b9462e-2947-436f-961e-74d1edd85458")
+	)
+	(junction
+		(at 58.42 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e22d7d-d2d5-4aac-b9bf-7e0d9afe5e58")
+	)
+	(junction
+		(at 68.58 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab1d370f-a210-46fb-a89a-04dda3083392")
+	)
+	(junction
+		(at 153.67 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf904f3-2d21-4fc4-8797-990078e2ad5f")
+	)
+	(junction
+		(at 58.42 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba7fc6d0-2820-4e0f-882f-303940443994")
+	)
+	(junction
+		(at 58.42 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de0f5672-81fa-4616-890e-8e8644743466")
+	)
+	(junction
+		(at 58.42 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f08d478a-0147-417e-b13a-08f0ffc10cf0")
+	)
+	(wire
+		(pts
+			(xy 119.38 53.34) (xy 138.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c18afa1-2239-4647-8dcd-38e90de28435")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 138.43 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a07e4a-a16f-4288-9afe-986d63468463")
+	)
+	(wire
+		(pts
+			(xy 45.72 83.82) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16618965-ce47-4ccb-ba77-887da2fbe567")
+	)
+	(wire
+		(pts
+			(xy 41.91 45.72) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c277f67-6c24-4778-b2c0-20418179d245")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204d75b0-bf37-4cd9-9be3-eec448b6220a")
+	)
+	(wire
+		(pts
+			(xy 153.67 43.18) (xy 146.05 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b9aed4-655a-4268-923d-32a6d17ad05d")
+	)
+	(wire
+		(pts
+			(xy 119.38 71.12) (xy 138.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29875e41-8ca4-46df-9115-5218e8f18b2d")
+	)
+	(wire
+		(pts
+			(xy 119.38 63.5) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cabdcae-74f3-4b02-9f48-8453e8afdfff")
+	)
+	(wire
+		(pts
+			(xy 119.38 55.88) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e78b79b-970d-4bcc-a7e3-726c943776b2")
+	)
+	(wire
+		(pts
+			(xy 80.01 142.24) (xy 90.17 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304caf4e-ff2d-4be0-a3a3-fae1ec3ccc53")
+	)
+	(wire
+		(pts
+			(xy 119.38 96.52) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d61482-07ab-402a-87f7-f04eca52d229")
+	)
+	(wire
+		(pts
+			(xy 58.42 68.58) (xy 45.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b75b9f-3c9b-4f29-a19d-0dace305412a")
+	)
+	(wire
+		(pts
+			(xy 58.42 96.52) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d177da6-4345-4ca3-9d2d-cea02474f1e1")
+	)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50624f74-3103-446d-9cdb-cd9281382405")
+	)
+	(wire
+		(pts
+			(xy 45.72 68.58) (xy 45.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ba491f-c9a0-41e6-aff5-a328fa2871f9")
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 138.43 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568ff0b4-8706-4367-b441-8d1eec6eadf9")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 138.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582201f3-3af3-4d82-a3a4-468290aafba8")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 153.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a67601-3479-4cf9-8f82-021d39bb0de6")
+	)
+	(wire
+		(pts
+			(xy 119.38 81.28) (xy 138.43 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df5b999-265f-4239-84d0-b422fe144f9b")
+	)
+	(wire
+		(pts
+			(xy 119.38 53.34) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66781a8c-c4ba-40dc-9ac8-6397b08d2327")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 58.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718e08f8-b167-4daf-8df5-bc9feb3cc930")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 119.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745aea6f-554d-4c1a-aa15-33b8db8b89b9")
+	)
+	(wire
+		(pts
+			(xy 45.72 76.2) (xy 45.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cae8a6-c913-4540-b97a-071caf990579")
+	)
+	(wire
+		(pts
+			(xy 119.38 48.26) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79dd67b0-2a46-413d-9d57-31dea79630f5")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b45dedb-10f1-43dc-b4ec-4cb83fca5abb")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff7fbd4-ff50-4d2c-8387-dcd9168b2c9e")
+	)
+	(wire
+		(pts
+			(xy 68.58 142.24) (xy 80.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8171748d-7dd0-452a-a965-bd743eda78b9")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 58.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92af41e3-1871-4631-8c72-6388fbe0ef39")
+	)
+	(wire
+		(pts
+			(xy 58.42 45.72) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958a7278-3a47-4545-b4ff-fe51f3e1e3a5")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99764e3d-38b9-4fa5-80ff-12b02a6b0ab6")
+	)
+	(wire
+		(pts
+			(xy 119.38 86.36) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbd7d07-d0d0-4ca4-8fdb-fb0b8b1b77d9")
+	)
+	(wire
+		(pts
+			(xy 58.42 91.44) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e544936-e249-41ad-9451-8a748dfabc8f")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a613b6a6-fa0a-4398-bd4b-e46ecf9479ac")
+	)
+	(wire
+		(pts
+			(xy 119.38 83.82) (xy 138.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bd1ba9-aaa2-41eb-8d01-21bddcc5e828")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 138.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf0b5b2-0f2f-466d-8c7c-2b9c172295ea")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1f6c6b-d0c7-4c24-8811-0ddc85e0e7de")
+	)
+	(wire
+		(pts
+			(xy 119.38 60.96) (xy 138.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02c3259-04d0-48ab-8df8-885ce55c5f16")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fae64d-e8d7-46b7-ae59-5dfd94ca3fcd")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 45.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fe64e0-0998-458f-839d-22d4e2f5102a")
+	)
+	(wire
+		(pts
+			(xy 45.72 60.96) (xy 45.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0541c2-ab2b-4cb5-a132-26ac14c4a562")
+	)
+	(wire
+		(pts
+			(xy 58.42 60.96) (xy 45.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2dde4f-fee5-492f-83b9-8082f0aa2979")
+	)
+	(wire
+		(pts
+			(xy 153.67 50.8) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd40877-e6d4-4cb9-8ccb-afee30ccfbd8")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 138.43 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8be5f66-3d3a-4cd8-8cf9-8f2546b64073")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef733e14-043e-4d80-97d0-da3215a2a4fd")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 138.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d5aea6-f434-4f67-ae57-9e6e1f5bf07d")
+	)
+	(wire
+		(pts
+			(xy 58.42 142.24) (xy 68.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48447a1-3023-4b15-a9a0-4ccb2cfec656")
+	)
+	(label "STROBE"
+		(at 119.38 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03bcf78a-a0d2-41be-acaa-5c46b23bde5a")
+	)
+	(label "PMU_SCL"
+		(at 92.71 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ac10aa3-5256-448f-a699-0c57412a6935")
+	)
+	(label "POWER_VAR"
+		(at 119.38 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dfff93e-b41f-49a3-8b15-fa19cf0a5af6")
+	)
+	(label "POWER_3V25"
+		(at 58.42 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "201ef203-8842-48bb-a884-197faddf550b")
+	)
+	(label "POWER_1V8"
+		(at 92.71 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "286493ea-1035-4ff4-8942-cfcb2e8ddee1")
+	)
+	(label "ACI_D0_N"
+		(at 58.42 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29179f7b-f17a-45d7-a28e-b50361902aa2")
+	)
+	(label "SYNC"
+		(at 92.71 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e5d5f99-f0e7-4ee3-aa69-e84c47e512f5")
+	)
+	(label "PMU_SHUTDOWN"
+		(at 92.71 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40b298a6-0916-4fde-801c-b1015aa21048")
+	)
+	(label "POWER_2V75"
+		(at 92.71 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44da0aee-edaf-48ff-9daf-9c596815a9ff")
+	)
+	(label "ACI_D1_N"
+		(at 128.27 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45f2c875-3ac7-48a9-abca-8315cb2f49b4")
+	)
+	(label "ACI_D1_P"
+		(at 128.27 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48a67dd0-742b-4e01-8331-ade0c45741d1")
+	)
+	(label "POWER_1V8"
+		(at 80.01 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56d3542b-a4a4-456b-b359-4854f1502bc9")
+	)
+	(label "POWER_2V75"
+		(at 119.38 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58e6753b-0282-40b8-9402-7f6c8a7f2135")
+	)
+	(label "ACI_D1_N"
+		(at 58.42 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cebb83c-2236-4512-a2f3-c0048177fd32")
+	)
+	(label "POWER_1V47"
+		(at 119.38 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5da3d7dc-8801-4de8-9254-ab8fb64410ba")
+	)
+	(label "POWER_2V75"
+		(at 68.58 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60881328-f23c-4d8e-8c5f-854f2d57ed4b")
+	)
+	(label "STROBE"
+		(at 92.71 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "649b9983-182a-4111-826e-ff53e6cca6c5")
+	)
+	(label "ACI_D2_P"
+		(at 58.42 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67ffe935-841c-4e71-986a-3a3e2a6da2f4")
+	)
+	(label "POWER_VAR"
+		(at 90.17 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6958c75d-0b3d-41c6-8269-df9fe69507fb")
+	)
+	(label "ACI_D2_N"
+		(at 58.42 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c8e7faf-71da-4d80-9dae-dfc599c3af93")
+	)
+	(label "PMU_SCL"
+		(at 119.38 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "733e277a-b480-482e-ac23-5184994e8d3b")
+	)
+	(label "ACI_D0_N"
+		(at 128.27 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "830cba40-a789-4732-900b-aa66dfec38e0")
+	)
+	(label "ACI_D2_N"
+		(at 128.27 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8629ff13-9b3c-4dcd-a35a-7ddf57e87737")
+	)
+	(label "POWER_1V8"
+		(at 119.38 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f548f24-38e1-468a-9f77-c96e0a74e02f")
+	)
+	(label "ACI_D2_P"
+		(at 128.27 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9551a1af-cf85-438b-9105-169c5c3f7030")
+	)
+	(label "CLK_24M"
+		(at 92.71 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "962c4cf9-33ba-4844-a00d-f1028a3c9906")
+	)
+	(label "ACI_D1_P"
+		(at 58.42 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9685cbd9-a53f-4331-8c7a-ea2c786831b2")
+	)
+	(label "ACI_D0_P"
+		(at 58.42 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f1f7e24-e9e1-499c-91f6-632e8aacbbf7")
+	)
+	(label "PMU_SDA"
+		(at 92.71 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0e7fbac-bb73-48f9-a4d9-790e6a0141b7")
+	)
+	(label "POWER_3V25"
+		(at 119.38 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a643a328-3bcb-4938-a869-5bda432fb20b")
+	)
+	(label "CLK_24M"
+		(at 119.38 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aba3bdd1-5428-499f-8259-390122749666")
+	)
+	(label "PMU_SDA"
+		(at 119.38 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad912058-8f25-4ed2-994b-a6a098aa396a")
+	)
+	(label "ACI_D0_P"
+		(at 128.27 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1f4eb8c-b842-4692-9a06-95b3b54b7735")
+	)
+	(label "PMU_SHUTDOWN"
+		(at 119.38 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d38fe8d8-ffe3-4256-94a4-dadd6966bf74")
+	)
+	(label "POWER_VAR"
+		(at 92.71 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de290194-bce4-4645-8f7a-1b07a6fa2262")
+	)
+	(label "SYNC"
+		(at 119.38 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e28d0b1a-ec4a-4c55-9687-1cd03941d6f8")
+	)
+	(label "POWER_3V25"
+		(at 92.71 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea968755-ca23-4b3a-ade6-28584e802e1c")
+	)
+	(label "POWER_1V47"
+		(at 58.42 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6ebe378-7fe3-48fa-be50-91404216027c")
+	)
+	(symbol
+		(lib_id "iphone_connector:wide_camera_receptacle_J10500")
+		(at 74.93 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d5f6fcf-2eb4-46d3-8271-7bb9d6242d48")
+		(property "Reference" "J1"
+			(at 75.565 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 75.565 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "iphone_connector:wide_camera_receptacle_J10500"
+			(at 74.93 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "21"
+			(uuid "06a983b9-8b05-4e44-939e-2b8f0cbab819")
+		)
+		(pin "22"
+			(uuid "ea2b2b6c-e63d-4456-8ce9-f9bd4fdd3be7")
+		)
+		(pin "23"
+			(uuid "55ed79da-9419-4c10-b025-6a39df249305")
+		)
+		(pin "24"
+			(uuid "a3a440d3-21a9-4daf-b26a-7e91f602bd1d")
+		)
+		(pin "11"
+			(uuid "72653e15-1f9f-46c8-bab2-0fe4116cc722")
+		)
+		(pin "12"
+			(uuid "cfbf8062-bf9c-4eb9-8b1d-7ad1791bc529")
+		)
+		(pin "20"
+			(uuid "70984674-7f6e-4680-8d44-68afa6382126")
+		)
+		(pin "25"
+			(uuid "450f6dca-9c9a-4732-a236-ad2f51efb05e")
+		)
+		(pin "26"
+			(uuid "b97b159a-a19c-425d-939c-6ca2ff9f8f5d")
+		)
+		(pin "27"
+			(uuid "161dc75d-77e2-4627-91f7-83a1f0241518")
+		)
+		(pin "28"
+			(uuid "a0ed3b4c-66a0-49cb-9885-923c289872ca")
+		)
+		(pin "9"
+			(uuid "a516cca8-22a7-40b6-87b0-879fca94969b")
+		)
+		(pin "10"
+			(uuid "49207f21-eeb1-4881-ae27-28a33d83c475")
+		)
+		(pin "4"
+			(uuid "b3570e4c-45dd-47f9-b6af-b9ee83a2840e")
+		)
+		(pin "5"
+			(uuid "82dd8d75-4f42-49c0-8faf-5d741430ea66")
+		)
+		(pin "13"
+			(uuid "0acd1f85-482f-42d3-adef-9039bbdf5b04")
+		)
+		(pin "14"
+			(uuid "e385f03c-3805-4d1f-b5b7-6f2609d3eefd")
+		)
+		(pin "15"
+			(uuid "4d6f39d6-3ccd-4ea8-a5c2-0acbc026f0df")
+		)
+		(pin "16"
+			(uuid "0c075ece-1238-4c3e-bb67-f4a740c6a372")
+		)
+		(pin "17"
+			(uuid "245348bc-df7b-4ffc-ae3a-e892f0af2ffa")
+		)
+		(pin "18"
+			(uuid "1a4660b4-b601-4309-a8ac-9b0635eaab13")
+		)
+		(pin "19"
+			(uuid "40b1c018-08f2-4fe2-96d4-c93fa7a83dc4")
+		)
+		(pin "1"
+			(uuid "037e9aba-01a7-41f0-838d-a4748e1c1147")
+		)
+		(pin "2"
+			(uuid "250003c1-8e39-4405-beb2-c82473bfd77d")
+		)
+		(pin "3"
+			(uuid "ce762eec-13e7-4dc3-97be-e80584e23f18")
+		)
+		(pin "6"
+			(uuid "c55bf423-8295-44d8-9e47-694f924341b0")
+		)
+		(pin "7"
+			(uuid "a3156d08-0171-4058-a376-52008293a875")
+		)
+		(pin "8"
+			(uuid "a19fdd7e-b2ae-4f21-bafa-52153a0b81dc")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f3c36e-dd43-4911-9578-edeb319dc835")
+		(property "Reference" "#PWR05"
+			(at 58.42 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31964168-3729-44ff-874a-787dad7ddc98")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 41.91 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2563ffd9-cf3a-4c68-92e3-324a13c93b7f")
+		(property "Reference" "C1"
+			(at 44.45 46.9962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 44.45 49.5362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c68ea40-c11c-48ea-aaf1-d79eccecd374")
+		)
+		(pin "1"
+			(uuid "0037b266-69e3-4ae4-980e-527b94de06a0")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26ec84b0-180e-44d6-8f9f-b6e40254d43b")
+		(property "Reference" "#PWR02"
+			(at 45.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5e11f5c-6182-4d4d-a841-87649f1a72ca")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 80.01 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26f7e6dc-591c-4370-a3d4-685861ea4a45")
+		(property "Reference" "C4"
+			(at 82.55 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.55 140.9762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.01 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b39415b-f655-41fc-9bb0-878aefa9dbff")
+		)
+		(pin "1"
+			(uuid "f5fedebf-0469-40ce-b992-8c487aaac916")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7262560e-64fb-4ad2-9176-3d5e45b4e757")
+		(property "Reference" "C2"
+			(at 60.96 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 60.96 140.9762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 58.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 58.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "40adc036-f820-4667-8fd0-736fff73b0d5")
+		)
+		(pin "1"
+			(uuid "32acca17-f4ae-4cf3-8b7c-1b7478a7c538")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 90.17 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78cc8f2e-5c82-448e-9053-ce0f42c3cb41")
+		(property "Reference" "C5"
+			(at 92.71 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 92.71 140.9762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 90.17 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 90.17 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "285de514-9b41-41b5-a3c5-9c5890926298")
+		)
+		(pin "1"
+			(uuid "26ec403d-90e3-4e1f-aebe-0c82154fb18e")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81485428-212f-4f12-9e71-50977933089d")
+		(property "Reference" "C3"
+			(at 71.12 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 71.12 140.9762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 68.58 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "875c29ad-ed01-4ebb-806c-a94378f12ea7")
+		)
+		(pin "1"
+			(uuid "021ba406-f853-4619-94ca-4c8699368434")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "891368a3-3ed5-411a-a488-21975cf8fa1c")
+		(property "Reference" "#PWR04"
+			(at 58.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98202b55-0f3e-45b9-b936-5793c237b2c7")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92fc8f84-f1e2-48e2-b582-0a098063453a")
+		(property "Reference" "#PWR06"
+			(at 153.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0369ae15-6697-41ca-a1d0-087102820c8c")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "iphone_connector:20455-020E-02")
+		(at 143.51 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d94ff6b8-5f36-4b39-94ad-541ae1aba72f")
+		(property "Reference" "CN1"
+			(at 144.2019 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "20455-020E-02"
+			(at 144.2019 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "iphone_connector:CONN-SMD_20P-P0.50_I-PEX_20455-020E-02"
+			(at 143.51 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7527729"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5fbf989b-ead0-4b3e-890c-ae0781beec27")
+		)
+		(pin "2"
+			(uuid "108b1bcf-5749-4204-807c-feb3e83588ab")
+		)
+		(pin "10"
+			(uuid "604febbe-0803-4036-a3f3-6c6fb7e542b1")
+		)
+		(pin "11"
+			(uuid "0f104e95-e247-4bb6-b7bc-019ebb770e25")
+		)
+		(pin "12"
+			(uuid "b47b2a7d-a453-4774-8795-4d46177fe87f")
+		)
+		(pin "13"
+			(uuid "8f1118d8-ad82-46bf-9ee1-9365ec383779")
+		)
+		(pin "14"
+			(uuid "ce20522e-fe7e-4821-98ff-e9fb12b3a502")
+		)
+		(pin "15"
+			(uuid "ecc47e95-7227-47a0-88e8-37c21aee24c0")
+		)
+		(pin "16"
+			(uuid "aea5aeb6-4de0-4525-9c36-83b72a3910ec")
+		)
+		(pin "17"
+			(uuid "0f3dadb0-17cf-4612-826b-dbc2efdac2f0")
+		)
+		(pin "18"
+			(uuid "d85f2d41-85be-4532-9af9-c79decd2296f")
+		)
+		(pin "19"
+			(uuid "a75cbb71-74dc-4ec5-bb0f-6e3fa841512d")
+		)
+		(pin "20"
+			(uuid "010aa5e7-5105-449c-9924-f19bc26771b1")
+		)
+		(pin "23"
+			(uuid "058c33b3-8d79-49a3-9242-e7408f84eab1")
+		)
+		(pin "21"
+			(uuid "65a024ab-9139-4019-bb14-7b41a0ff8513")
+		)
+		(pin "24"
+			(uuid "92a4befb-0f32-4d24-b872-2d8bd51696ec")
+		)
+		(pin "22"
+			(uuid "e4dee499-3114-4dec-b0bb-5801bd667e94")
+		)
+		(pin "7"
+			(uuid "ece19dd9-bd7c-4351-ae08-1aa7c147d131")
+		)
+		(pin "9"
+			(uuid "8e51e51c-5533-406d-9b0a-29c7e11f7eb1")
+		)
+		(pin "5"
+			(uuid "5e20e134-1639-4d27-98e3-fb427a71c788")
+		)
+		(pin "6"
+			(uuid "24dc9668-b906-42f6-a441-788ec0e01c11")
+		)
+		(pin "8"
+			(uuid "101349ec-663b-480c-997c-c2fedd9b98e3")
+		)
+		(pin "1"
+			(uuid "707830e0-4c21-416c-8884-1ccda949603f")
+		)
+		(pin "4"
+			(uuid "ab4a7727-746a-4f1f-88d6-611ef0cdaa42")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb2a4082-421e-4b34-baca-b16d42e17da8")
+		(property "Reference" "#PWR01"
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfbb2d90-86d7-4ffe-be06-825ba6bdae64")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fea63c7a-6625-4e1d-b7c2-5f003310c3b4")
+		(property "Reference" "#PWR07"
+			(at 153.67 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a0fe144-6aaa-4820-bf00-b0092c4afcf0")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
