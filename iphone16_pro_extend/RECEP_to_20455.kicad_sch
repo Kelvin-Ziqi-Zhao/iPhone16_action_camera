@@ -1394,6 +1394,12 @@
 		)
 	)
 	(junction
+		(at 41.91 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29d5de52-87fe-41ac-84ee-e593a1b4b9f9")
+	)
+	(junction
 		(at 45.72 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1486,6 +1492,16 @@
 			(type default)
 		)
 		(uuid "0c18afa1-2239-4647-8dcd-38e90de28435")
+	)
+	(wire
+		(pts
+			(xy 30.48 45.72) (xy 41.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc86118-2004-4c2a-942e-11322aaafbd3")
 	)
 	(wire
 		(pts
@@ -2555,6 +2571,88 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 30.48 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2528da71-dd76-4561-a347-1a200c71ed5d")
+		(property "Reference" "C11"
+			(at 33.02 46.9962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 33.02 49.5362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9e40d586-c22d-4d7c-8628-43dc619e91a2")
+		)
+		(pin "1"
+			(uuid "63940b28-1e84-4f5b-99e0-62d0a187a51e")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 41.91 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -2954,6 +3052,84 @@
 			(project "iphone16_pro_extend"
 				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a935d4e-833f-4a1a-af29-d5a2242a43b1")
+		(property "Reference" "#PWR03"
+			(at 30.48 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7be765f7-0ab4-4c5d-bd48-4c1bcfdb1878")
+		)
+		(instances
+			(project "iphone16_pro_extend"
+				(path "/42fe99c7-182d-4f18-88bd-9b47921653c8/6d5df5d2-7541-4967-a257-6c65f5dcb070"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
