@@ -1,2 +1,8 @@
-.DS_Store
+/*
 
+!/iphone16_pro_extend/
+!/iphone16_pro_extend/**
+
+.DS_Store
+.history
+.zip
